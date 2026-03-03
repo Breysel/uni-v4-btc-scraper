@@ -1,0 +1,4 @@
+arb_univ4_wbtc_usdc_005/
+__pycache__/
+*.pyc
+.env
