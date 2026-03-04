@@ -62,7 +62,7 @@ PARTITION = "day"  # "day" or "month"
 
 # Uniswap V4 launched on Arbitrum around Jan 31 2025.
 # Adjust START_DT to your desired backfill start.
-START_DT = datetime(2025, 1, 31, 0, 0, 0, tzinfo=timezone.utc)
+START_DT = datetime(2025, 12, 1, 0, 0, 0, tzinfo=timezone.utc)
 END_DT   = datetime(2026, 3, 3, 23, 59, 59, tzinfo=timezone.utc)
 
 # Chunk sizing (safe defaults for providers that limit block span)
